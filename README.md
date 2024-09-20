@@ -13,7 +13,7 @@ El proyecto final es un carrito de compras que contiene:
 - DOM
 - No contiene prompts
 - Librería Sweetalert
-- Validacion de datos
+- Validacion de datos para mostrar en cards
 
 En base a lo entregado espero la calificación, ya que por cuestión de trabajo no podré realizar cambios si se requieren más adelante.
 
