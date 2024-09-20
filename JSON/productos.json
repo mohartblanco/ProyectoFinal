@@ -1,0 +1,58 @@
+[
+    {
+        "codigo": "Lib01",
+        "nombre": "Spectrum 23: The Best in Contemporary Fantastic Art",
+        "autor": "John Fleskes",
+        "precio": 600.00,
+        "url": "./img/Lib01.jpeg"
+    },
+    {
+        "codigo": "Lib02",
+        "nombre": "MONET El triunfo del impresionismo",
+        "autor": "Taschen",
+        "precio": 500.00,
+        "url": "./img/Lib02.jpeg"
+    },
+    {
+        "codigo": "Lib03",
+        "nombre": "Artists Master Series: Color and Light",
+        "autor": "3dtotal pub.",
+        "precio": 700.00,
+        "url": "./img/Lib03.jpeg"
+    },
+    {
+        "codigo": "Lib04",
+        "nombre": "Arte moderno. Desde el impresionismo hasta hoy",
+        "autor": "Taschen",
+        "precio": 430.00,
+        "url": "./img/Lib04.jpeg"
+    },
+    {
+        "codigo": "Lib05",
+        "nombre": "ART The Whole Story",
+        "autor": "Stephen Farthin",
+        "precio": 525.00,
+        "url": "./img/Lib05.jpeg"
+    },
+    {
+        "codigo": "Lib06",
+        "nombre": "Abstract Painting",
+        "autor": "Jane Davies",
+        "precio": 600.00,
+        "url": "./img/Lib06.jpeg"
+    },
+    {
+        "codigo": "Lib07",
+        "nombre": "The Short Story of Art",
+        "autor": "Susie Hodge",
+        "precio": 390.00,
+        "url": "./img/Lib07.jpeg"
+    },
+    {
+        "codigo": "Lib08",
+        "nombre": "DALÍ La obra pictórica",
+        "autor": "Taschen",
+        "precio": 430.00,
+        "url": "./img/Lib08.jpeg"
+    }
+]

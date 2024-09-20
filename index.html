@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohart Blanco - Proyecto Final</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Google Font: Reddit Sans, Open Sans & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Reddit+Sans:wght@200..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="d-flex" id="Contenedor">
+        <div class="row align-items-center">
+            <div class="col-12 center" id="bar-top" style="width: 100%; height: 80px; background-color: #F3F3F9">
+                <div class="row" style="width: 100%">
+                    <div class="col-lg-3 ps-5"><img class="" src="./img/ArtBooks.svg"></div>
+                    <div class="col-lg-8 text-center center Title"></div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+            <!-- Imagen Libros -->
+            <div id="header" class="row" style="width: 100%; height: 280px; background: #CCDFFD url('./img/frame.jpg') no-repeat center top">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-8 center px-5">
+                    <div class="row text-center">
+                        <div class="col- Title">Descubre los mejores libros de arte en el mercado.</div>
+                        <div class="col- cart-item-info">Contamos con un catálogo especializado en arte clásico, impresionismo, escultura, arte urbano y contemporáneo.</div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-5 d-none d-sm-none d-md-block"></div>
+            </div>
+            <!-- Contenido Catálogo -->
+            <div id="Catalogo" style="display: block;">
+                <div class="d-flex justify-content-center" style="background-color: #fcfcfc;">
+                    <div class="mx-3 my-4 col-8">
+                        <h1 class="Title mb-4">Catálogo</h1>
+                        <div id="product-container" class="cards-container"></div>
+                        <!-- Icono del carrito -->
+                        <div class="cart-icon-container">
+                            <span id="cart-count" class="cart-count">0</span>
+                            <img src="./img/shopping_cart.svg" id="cart-icon" alt="Carrito de compras" class="cart-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div id="Footer" class="raw center mt-4 px-5" style="width: 100%; height: 176px; background-color: #0143F5">
+                    <div class="d-flex col-4 justify-content-end">
+                        <ul style="list-style-type: none" class="ps-0">
+                            <li><a href="#" class="lifooter">Términos y Condiciones</a></li>
+                            <li><a href="#" class="lifooter">Servicio al cliente</a></li>
+                            <li><a href="#" class="lifooter">Devoluciones</a></li>
+                            <li><a href="#" class="lifooter">FAQ’s</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex col-4 align-self-end copyright justify-content-center mb-2">© 2024 Art Books, Todos los Derechos Reservados.</div>
+                    <div class="d-flex col-4">
+                        <ul style="list-style-type: none" class="ps-4">
+                            <li class="Contact mb-1">Contáctanos</li>
+                            <li><a href="#" class="lifooter"><img class="img-fluid" src="./img/icomail.svg" alt="">&nbsp;&nbsp;shop@artbooks.com</a></li>
+                            <li><a href="#" class="lifooter my-2"><img class="img-fluid" src="./img/icocel.svg" alt="">&nbsp;&nbsp;+52 55 5430 5060</a></li>
+                            <li><a href="#" class="lifooter"><img class="img-fluid" src="./img/icoayuda.svg" alt="">&nbsp;&nbsp;Ayuda</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/app.js"></script>
+    <script src="./JS/carrito.js"></script>
+</body>
+</html>
