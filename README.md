@@ -1,20 +1,13 @@
-# ProyectoFinal
+# ProyectoFinal - Reentrega
 
 Mohart Blanco Torres - JavaScript Flex - Comisión 64770 - Proyecto Final
 
-El proyecto final es un carrito de compras que contiene:
+La plataforma me permitió la Reentrega con fecha límite de hoy 6 de septiembre de 2024, por lo anterior realice los cambios en tus comentarios Rodrigo. 
 
-- Fetch, Async, Try y Catch en el archivo /JS/app.js
-- 3 métodos de localStorage, getItem, setItem, remove en el archivo /JS/carrito.js, Contiene Let y Const, nada de Var.
-- Los estilos se encuentran en el archivo CSS/styles.css
-- Codigo en snakecase
-- Nombres en ingles para las funciones y estilos
-- Sin comentarios
-- DOM
-- No contiene prompts
-- Librería Sweetalert
-- Validacion de datos para mostrar en cards
+Cambios en Proyecto Final:
 
-En base a lo entregado espero la calificación, ya que por cuestión de trabajo no podré realizar cambios si se requieren más adelante.
+- Se reestructuró el codigo para mayor legibilidad y escalabilidad para que sea facil de mantener en el archivo carrito.js.
+- Se agregaron comentarios para identificar claramente las funciones declaradas para cada tarea especifica en el archivo carrito.js y app.js.
+- Mejora en gestion de errores para cargar datos, cancelar eventos y reabrir ventan del carrito en cancelaciones.
 
-De antemano gracias.
+Gracias por tu tiempo en mi revisión Rodrigo, te envío un saludos cordial.
