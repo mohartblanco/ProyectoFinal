@@ -1,6 +1,6 @@
 # ProyectoFinal - Reentrega
 
-Mohart Blanco Torres - JavaScript Flex - Comisión 64770 - Proyecto Final
+Mohart Blanco Torres - JavaScript Flex - Comisión 64770
 
 La plataforma me permitió la Reentrega con fecha límite de hoy 6 de septiembre de 2024, por lo anterior realice los cambios de tus comentarios Rodrigo. 
 
