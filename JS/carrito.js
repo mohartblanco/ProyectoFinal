@@ -237,7 +237,6 @@ document.getElementById('cart-icon').addEventListener('click', () => {
                             })
                         }
                         else {document.getElementById('cart-icon').click() // Reabrir el carrito
-
                         }
                     });
                 });
