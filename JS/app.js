@@ -23,6 +23,7 @@ async function fetchData() {
             productContainer.appendChild(card);
         });
 
+        // Llamar a la función que maneja los botones de "Agregar al Carrito"
         setupAddToCartButtons(data);
 
     } catch (error) {
@@ -37,4 +38,5 @@ async function fetchData() {
     }
 }
 
+// Llamada a la función fetchData
 fetchData();
